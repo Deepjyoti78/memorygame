@@ -71,7 +71,7 @@ var match = function match() {
   if (allCards.length === matchedCards.length) {
     setTimeout(function() {
       var binaryMessage = document.createElement('div');
-      binaryMessage.textContent = '01100010 01101100 01101111 01100011 01101011 00100000 00110100 BASEMENT';
+      binaryMessage.textContent = '01000010 - 01101100 - 01101111 - 01100011 - 01101011 - 00110100 - 01000010 - 01001101 BASEMENT';
       binaryMessage.style.position = 'fixed';
       binaryMessage.style.top = '50%';
       binaryMessage.style.left = '50%';
